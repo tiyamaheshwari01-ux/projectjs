@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>cricket by the start</title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Bat, ball and stump game.</h2>
+    <hr>
+    <script>
+    let randomNumber = Math.random() * 3;
+    let computerChoice;
+    let resultMessage;
+    let computerChoiceMsg;
+    </script>
+    <button onclick = "
+    // here we made the solution of user to choice
+    const userChoiceMsg ='you have choosen bat';
+    // using maths function to create random choices math.rnadom
+
+    //on the basis of this random number we will create a computer choice..
+    if (randomNumber >0 && randomNumber<=1){
+        computerChoice = 'Bat';
+        // console.log('computer choice is Bat');
+    }else if (randomNumber >1 && randomNumber<=2){
+        computerChoice = 'Ball';
+        // console.log('computer choice is Ball');
+    }else{
+        computerChoice = 'Stump';
+        // console.log('computer choice is Stump');
+    }
+    computerChoiceMsg = `computer choice is ${computerChoice}`;
+    // we made cosole log all statments bcz so tha we can cheak on sosole that is it working after making such variables.
+    
+    
+    // till here created the button to be functional and then after we made it both used and computer choice using methods for computer called math.random.
+
+    // no we will compair the choice and what will be the result .
+
+    // since we have working on bat button it sepcifies it self that use choice is bat now we will club what will be th result depending on what is choosen by compter
+    
+    
+    if (computerChoice ==='Ball'){
+       resultMessage = 'user Won.'; 
+    }else if (computerChoice === 'Bat'){
+         resultMessage =`It's a tie`;
+    }else if (computerChoice === 'Stump') {
+         resultMessage='computer has won';
+    }
+    alert(`you have chosen bat. ${computerChoiceMsg} and ${resultMessage}`);
+
+    ">bat</button>
+
+
+    <button onclick = "
+    randomNumber = Math.random() * 3;
+    computerChoice;
+    //on the basis of this random number we will create a computer choice..
+    if (randomNumber >0 && randomNumber<=1){
+        computerChoice = 'Bat';
+        // console.log('computer choice is Bat');
+    }else if (randomNumber >1 && randomNumber<=2){
+        computerChoice = 'Ball';
+        // console.log('computer choice is Ball');
+    }else{
+        computerChoice = 'Stump';
+        // console.log('computer choice is Stump');
+    }
+   
+    
+    
+    
+    resultMessage;
+    if (computerChoice ==='Ball'){
+       resultMessage = `It's a tie`; 
+    }else if (computerChoice === 'Bat'){
+         resultMessage = 'computer won.';
+    }else if (computerChoice === 'Stump') {
+         resultMessage='user won';
+    }
+    computerChoiceMsg = `computer choice is ${computerChoice}`;
+    alert(`you have chosen ball. computer choice is ${computerChoiceMsg} and ${resultMessage}`);
+    ">ball</button>
+
+
+
+    <button onclick ="
+    randomNumber = Math.random() * 3;
+    computerChoice;
+    //on the basis of this random number we will create a computer choice..
+    if (randomNumber >0 && randomNumber<=1){
+        computerChoice = 'Bat';
+        // console.log('computer choice is Bat');
+    }else if (randomNumber >1 && randomNumber<=2){
+        computerChoice = 'Ball';
+        // console.log('computer choice is Ball');
+    }else{
+        computerChoice = 'Stump';
+        // console.log('computer choice is Stump');
+    }
+   
+    
+    
+    
+    resultMessage;
+    if (computerChoice ==='Ball'){
+       resultMessage = 'computer won.'; 
+    }else if (computerChoice === 'Bat'){
+         resultMessage = 'user won.';
+    }else if (computerChoice === 'Stump') {
+         resultMessage=`it's a tie`;
+    }
+    computerChoiceMsg = `computer choice is ${computerChoice}`;
+    alert(`you have chosen Stump. computer choice is ${computerChoiceMsg} and ${resultMessage}`);
+    ">stump</button>
+    
+</body>
+</html>

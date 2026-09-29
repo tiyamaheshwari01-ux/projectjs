@@ -1,4 +1,4 @@
-⚡ A collection of JavaScript projects built through hands-on learning and practice. 🧮 Includes a Calculator with dynamic operations, 📝 a To-Do List for task management, 🎮 a Stone-Paper-Scissors game with interactive gameplay, 🛍️ a Myntra Clone using HTML, CSS, JavaScript & JSON, and 🌦️ a Weather App using a weather API. 🚀
+⚡ A collection of JavaScript projects built through hands-on learning and practice. 🧮 Includes a Calculator with dynamic operations, 📝 a To-Do List for task management, 🎮 a Stone-Paper-Scissors game with interactive gameplay using HTML, CSS, JavaScript & JSON, and 🌦️ a Weather App using a weather API. 🚀
 
 
 🧮 JavaScript Calculator
